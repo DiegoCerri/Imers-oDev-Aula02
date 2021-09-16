@@ -2,7 +2,7 @@ body {
   /*font-family: "Roboto Mono", monospace;*/
   font-family: "Blippo", fantasy;
   min-height: fill-available;
-  background-image: url("https://blogdojotace.com.br/wp-content/uploads/2013/09/eurodolar.jpg");
+  background-image: url("https://media.seudinheiro.com/uploads/2019/07/real-d%C3%B3lar.jpg");
   background-color: #000000;
   background-size: contain;
   background-position: center;
@@ -44,8 +44,11 @@ input {
 }
 
 label {
-  color: #2f4f4f;
+  color: black;
   font-size: 25px;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: DarkGray;
 }
 
 button {
