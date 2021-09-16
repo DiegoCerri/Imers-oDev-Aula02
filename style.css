@@ -1,0 +1,78 @@
+body {
+  /*font-family: "Roboto Mono", monospace;*/
+  font-family: "Blippo", fantasy;
+  min-height: fill-available;
+  background-image: url("https://blogdojotace.com.br/wp-content/uploads/2013/09/eurodolar.jpg");
+  background-color: #000000;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #2f4f4f;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+label {
+  color: #2f4f4f;
+  font-size: 25px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 44px;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background-color: #2f4f4f;
+}
+
+h2 {
+  color: black;
+  font-size: 30px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: DarkGray;
+}
+
+h3 {
+  color: black;
+  font-size: 25px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: DarkGray;
+}
