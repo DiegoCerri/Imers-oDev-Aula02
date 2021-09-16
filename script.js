@@ -1,6 +1,6 @@
 var data = new Date();
-var mes = data.getMonth();
-var dia = data.getDay();
+var mes = data.getMonth() + 1; //retorno é de 0-11
+var dia = data.getDate() - 1; //sempre cotação dia anterior
 var ano = data.getFullYear();
 var dataCompleta = mes + "-" + dia + "-" + ano;
 document.getElementById("dataD").innerHTML = dataCompleta;
